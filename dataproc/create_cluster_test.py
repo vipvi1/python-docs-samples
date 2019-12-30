@@ -23,7 +23,7 @@ import create_cluster
 
 PROJECT_ID = os.environ['GCLOUD_PROJECT']
 REGION = 'us-central1'
-CLUSTER_NAME = 'test-cluster-{}'.format(str(uuid.uuid4()))
+CLUSTER_NAME = 'py-cc-test-{}'.format(str(uuid.uuid4()))
 
 
 @pytest.fixture(autouse=True)
