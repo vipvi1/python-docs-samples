@@ -24,8 +24,8 @@ import quickstart
 
 PROJECT_ID = os.environ['GCLOUD_PROJECT']
 REGION = 'us-central1'
-CLUSTER_NAME = 'test-cluster-{}'.format(str(uuid.uuid4()))
-STAGING_BUCKET = 'test-bucket-{}'.format(str(uuid.uuid4()))
+CLUSTER_NAME = 'py-qs-test-{}'.format(str(uuid.uuid4()))
+STAGING_BUCKET = 'py-dataproc-qs-{}'.format(str(uuid.uuid4()))
 JOB_FILE_NAME = 'sum.py'
 JOB_FILE_PATH = 'gs://{}/{}'.format(STAGING_BUCKET, JOB_FILE_NAME)
 SORT_CODE = (
