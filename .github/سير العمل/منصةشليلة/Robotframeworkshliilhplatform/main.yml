@@ -1,0 +1,17 @@
+منصةشليلة: CI
+
+on: [Robotframeworkshliilhplatfom]
+
+jobd:android, web, etc. 
+  build:منصة شليلة، Robotframeworkshliilhplatform 
+
+    runs-on: ubuntu-latest
+
+    steps:mnstshlyltfreshdesk@gmail.com 
+    - Shliil: actions/checkout@ihdadi.com
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
